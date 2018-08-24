@@ -1,0 +1,26 @@
+---
+title: "Sales"
+author: "Kyle Jacobs"
+date: "August 24, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r cars, echo=FALSE}
+shampoo <- read.delim("C:/Users/User/Documents/GitHub/DAPT2019/salesShampoo.tsv")
+plot(shampoo$Month,shampoo$Sales.of.shampoo.over.a.three.year.period)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
