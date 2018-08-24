@@ -11,16 +11,8 @@ knitr::opts_chunk$set(echo = TRUE)
 
 
 
-```{r cars, echo=FALSE}
+```{r shampoo_sales}
 shampoo <- read.delim("C:/Users/User/Documents/GitHub/DAPT2019/salesShampoo.tsv")
 plot(shampoo$Month,shampoo$Sales.of.shampoo.over.a.three.year.period)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
 ```
 
